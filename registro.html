@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="public/img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="public/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="public/fontawesome/css/all.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Registro de usuarios</h2>
+                <form id="frmRegistro" method="POST" onsubmit="return registraUsuario()">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" class="form-control" required>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos" class="form-control" required>
+                    <label for="correo">Correo</label>
+                    <input type="text" name="correo" class="form-control" required>
+                    <label for="usuario">Usuario</label>
+                    <input type="text" name="usuario" class="form-control" required>
+                    <label for="password">Contraseña</label>
+                    <input type="text" name="password" class="form-control" required>
+                    <br>
+                    <button class="btn btn-primary">Registrar</button>
+                    <a href="index.html">Login de usuario!</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="public/jquery/jquery-3.6.0.min.js"></script>
+    <script src="public/bootstrap/popper.min.js"></script>
+    <script src="public/bootstrap/bootstrap.min.js"></script>
+    <script src="public/sweetalert2/sweetalert2@11.js"></script>
+    <script src="public/js/registro.js"></script>
+  </body>
+</html>
